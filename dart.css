@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(bg.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 100%;
+}
+
+.container{
+    margin: 10px;
+}
+
+.container{
+    align-self: center;
+}
+
+
+.container,.b{
+    align-self: flex-start;
+}
+
+.GAME{
+    border-collapse: collapse;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#infoGame{
+    background: rgb(20,20,20);
+    background: linear-gradient(180deg, rgba(20,20,20,1) 0%, rgba(57,57,57,1) 100%);    
+    color: #dfdfdf;
+    height: 2rem;
+}
+
+th{
+    padding: 0.5rem;
+}
+
+.nametd{
+    padding: 0.5rem;
+    background-color: white;
+}
+
+input[type=text]{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    border: 0;
+    background-color: rgba(25, 236, 236, 0.103);
+    transition: 0.2s;
+}
+
+input[type=text]:hover{
+    background-color: rgba(34, 126, 126, 0.103);
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #dfdfdf;
+}
+
+select{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    padding: 5px;
+    margin: 0px 15px 15px 0px;
+}
+
+#confirmOptions{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    background: rgb(20,20,20);
+    background: linear-gradient(180deg, rgba(20,20,20,0.5) rgba(57,57,57,0.5));    
+    color: #dfdfdf;
+    height: 2rem;
+    text-align: center;
+    border: 0px solid black;
+    height: 2rem;
+    transition: 0.2s;
+}
+
+#confirmOptions:hover{
+    background: rgb(0, 45, 88);
+    background: linear-gradient(180deg, rgba(6, 0, 31, 0.5)rgba(0, 6, 43, 0.5));    
+}
+
+.settd,.legtd,.pointstd{
+    width: 4rem;
+    background: rgb(72,236,34);
+    background: linear-gradient(360deg, rgb(47, 201, 12) 0%, rgb(7, 139, 14) 100%);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.turntd{
+    width: 3rem;
+}
+
+.nametd,.settd,.legtd,.pointstd{
+    border-bottom: 1px solid rgba(124, 124, 124, 0.24);
+}
